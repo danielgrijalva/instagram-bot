@@ -41,12 +41,12 @@
 Now everything is installed and the project is ready to run.
  
 ### Account setup
-Open the file `.env`, which looks like this:
+Open the file `.env.example`, which looks like this:
 ```
 ACCOUNT=
 PASSWORD=
 ```
-Fill in your credentials. This is the account that will log into Instagram to scrape the data.
+Fill in your credentials **and** remove the `.example` extension (so the file's name is only `.env`. This is the account that will log into Instagram to scrape the data.
  
 ### Running the script
 In a terminal, run:
