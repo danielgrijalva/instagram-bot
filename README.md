@@ -70,6 +70,7 @@ How many posts? [number of posts you want to analyze (up to 12 due Instagram lim
     * Inside that folder, you will see the following files:
       * `Followers.csv`: full list of followers
       * `Liked [post ID].csv`: list of accounts that liked post `post ID`
+      * `Liked 0/1/2/3.csv`: followers who liked certain number of posts, respectively
 6. For each post, compare its list of likers against the followers list, pick every follower who liked the post and put them in a separate list (called `followers_who_liked`).
 7. Count number of accounts in `followers_who_liked` to calculate the percentage of follower attachment.
 8. Print to console the percentage for each post.
